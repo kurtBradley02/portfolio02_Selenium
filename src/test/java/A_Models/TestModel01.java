@@ -1,5 +1,6 @@
 package A_Models;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
@@ -12,7 +13,10 @@ public class TestModel01 {
 	@BeforeTest
 	public void initiate() {
 		WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless"); // This line enables headless mode
+
+        driver = new ChromeDriver(options);
 	}
 
 	
