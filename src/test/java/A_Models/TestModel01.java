@@ -13,8 +13,9 @@ public class TestModel01 {
 	@BeforeTest
 	public void initiate() {
 		WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", WebDriverManager.chromedriver().getDownloadedDriverPath());
 		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // This line enables headless mode
+        options.addArguments("--headless", "--no-sandbox"); // This line enables headless mode
 
         driver = new ChromeDriver(options);
 	}

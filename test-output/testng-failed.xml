@@ -6,7 +6,9 @@
       <class name="C_Tests.LoginTest">
         <methods>
           <include name="initiate"/>
+          <include name="LoginWrongPassword"/>
           <include name="LoginSuccess"/>
+          <include name="LoginWrongUsername"/>
           <include name="endTest"/>
         </methods>
       </class> <!-- C_Tests.LoginTest -->

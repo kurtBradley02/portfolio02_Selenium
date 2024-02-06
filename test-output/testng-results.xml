@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T21:34:22 CST" name="Default suite" finished-at="2024-02-05T21:34:44 CST" duration-ms="21751">
+  <suite started-at="2024-02-06T09:38:27 CST" name="Default suite" finished-at="2024-02-06T09:38:49 CST" duration-ms="21796">
     <groups>
     </groups>
-    <test started-at="2024-02-05T21:34:22 CST" name="Default test" finished-at="2024-02-05T21:34:44 CST" duration-ms="21751">
+    <test started-at="2024-02-06T09:38:27 CST" name="Default test" finished-at="2024-02-06T09:38:49 CST" duration-ms="21796">
       <class name="C_Tests.LoginTest">
-        <test-method is-config="true" signature="initiate()[pri:0, instance:C_Tests.LoginTest@441772e]" started-at="2024-02-05T21:34:22 CST" name="initiate" finished-at="2024-02-05T21:34:23 CST" duration-ms="979" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:C_Tests.LoginTest@47af7f3d]" started-at="2024-02-06T09:38:27 CST" name="initiate" finished-at="2024-02-06T09:38:28 CST" duration-ms="981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="LoginSuccess()[pri:0, instance:C_Tests.LoginTest@441772e]" started-at="2024-02-05T21:34:23 CST" name="LoginSuccess" finished-at="2024-02-05T21:34:28 CST" duration-ms="5345" status="PASS">
+        <test-method signature="LoginSuccess()[pri:0, instance:C_Tests.LoginTest@47af7f3d]" started-at="2024-02-06T09:38:28 CST" name="LoginSuccess" finished-at="2024-02-06T09:38:34 CST" duration-ms="5332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginSuccess -->
-        <test-method signature="LoginWrongPassword()[pri:1, instance:C_Tests.LoginTest@441772e]" started-at="2024-02-05T21:34:28 CST" name="LoginWrongPassword" finished-at="2024-02-05T21:34:33 CST" duration-ms="5119" status="PASS">
+        <test-method signature="LoginWrongPassword()[pri:1, instance:C_Tests.LoginTest@47af7f3d]" started-at="2024-02-06T09:38:34 CST" name="LoginWrongPassword" finished-at="2024-02-06T09:38:39 CST" duration-ms="5167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWrongPassword -->
-        <test-method signature="LoginWrongUsername()[pri:2, instance:C_Tests.LoginTest@441772e]" started-at="2024-02-05T21:34:33 CST" name="LoginWrongUsername" finished-at="2024-02-05T21:34:39 CST" duration-ms="5132" status="PASS">
+        <test-method signature="LoginWrongUsername()[pri:2, instance:C_Tests.LoginTest@47af7f3d]" started-at="2024-02-06T09:38:39 CST" name="LoginWrongUsername" finished-at="2024-02-06T09:38:44 CST" duration-ms="5167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWrongUsername -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:C_Tests.LoginTest@441772e]" started-at="2024-02-05T21:34:39 CST" name="endTest" finished-at="2024-02-05T21:34:44 CST" duration-ms="5146" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:C_Tests.LoginTest@47af7f3d]" started-at="2024-02-06T09:38:44 CST" name="endTest" finished-at="2024-02-06T09:38:49 CST" duration-ms="5121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

@@ -4,6 +4,12 @@ public class UpdateIssue {
 
 	public UpdateIssue() {
 		// TODO Auto-generated constructor stub
+		
+		
+		
+		
 	}
+	
+	
 
 }

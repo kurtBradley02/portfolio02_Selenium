@@ -1,5 +1,7 @@
 package B_PageObjects;
 
+import java.io.IOException;
+
 import org.apache.hc.core5.util.Asserts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -44,11 +46,11 @@ public class LoginPage extends PageModel01{
 	}
 	
 	@Then("Assert on")
-	public void assert_on() {
+	public void assert_on(String scenario) throws IOException {
 		
 	   WebElement errMsg = driver.findElement(By.xpath("//*[@id=\"testOutput\"]"));
-	   
 	   Asserts.check(errMsg.isDisplayed(), "Asserts on output is displayed");
+	   takeScreenShot("Login - " +scenario);
 	   
 	}
 
